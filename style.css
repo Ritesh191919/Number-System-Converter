@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    background: lightgreen;
+}
+
+#project-title{
+    position: absolute;
+    height: 80px;
+    width: 20%;
+    left: 390px;
+    text-align: left;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    font-size: 2em;
+    color: white;
+}
+
+
+
+/* Convereter main part */
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    height: 80vh;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: white;
+}
+
+.input-field{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.input-field .inputs{
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 10px,0;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+input{
+    height: 45px;
+    width: 350px;
+    font-size: 1.1rem;
+    padding: 10px;
+    outline: none;
+    border: 2px solid red;
+}
+
+.select{
+    height: 45px;
+    width: 200px;
+    font-size: 1.1rem;
+    padding: 10px;
+    border: 2px solid green;
+
+}
+
+.btns{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns button{
+    margin:0 10px;
+    height: 50px;
+    width: 100px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: white;
+    background: blue;
+    outline: none;
+    border: none;
+
+}
+#answer{
+    width: 90%;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Easy & Simple Converter</h1>
+      <div class="input-field">
+        <div class="inputs">
+          <input type="text" placeholder="Enter your Number Here" id="input-value"/>
+          <select name="" id="from-select" class="select">
+            <option value="Binary" >Binary</option>
+            <option value="Decimal" selected>Decimal</option>
+            <option value="Hexadecimal">Hexadecimal</option>
+            <option value="Octal">Octal</option>
+          </select>
+          <select name="" id="to-select" class="select">
+            <option value="Binary" selected>Binary</option>
+            <option value="Decimal">Decimal</option>
+            <option value="Hexadecimal">Hexadecimal</option>
+            <option value="Octal">Octal</option>
+          </select>
+        </div>
+        <div class="btns">
+          <button  id="convert-btn">Convert</button>
+          <button id="reset-btn">Reset </button>
+          <button id="swap-btn">Swap </button>
+        </div>
+      </div>
+      <div id="answer">
+          <h1 id="output-value"></h1>
+      </div>
+    </div>
+    <div style="background: white; width: 20%; height: 40px; font-size: 20px; margin-top: 20px;">Designed By Satish Tiwari</div>
+    <script src="script.js"></script>
+  </body>
+</html>
